@@ -24,19 +24,14 @@ function App() {
         setValue(json.data.num_champion_ionia)
         setValue2(json.data.num_champion_piltover)
       })
-      console.log("TESTING1")
     axios.get('http://127.0.0.1:8110/ionia/history?Offset=8')
     .then(json => {
-      console.log("TESTING2")
-      console.log(json.data)
       setValue3(json.data.champ_name)
-      // document.title = json.data.value
     })
     axios.get('http://127.0.0.1:8110/piltover/history')
     .then(json => {
       console.log(json.data)
       setValue4(json.data.champ_name)
-      // document.title = json.data.value
     })
     setValue5(Date())
   }
