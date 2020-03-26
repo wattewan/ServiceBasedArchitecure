@@ -1,0 +1,68 @@
+swagger: '2.0'
+info:
+  description: This is a league API
+  version: 1.0.0
+  title: League Champions API
+  # put the contact info for your development or API team
+  contact:
+    email: you@your-company.com
+
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+
+# tags are used for organizing operations
+tags:
+- name: admins
+  description: Secured Admin-only calls
+- name: developers
+  description: Operations available to regular developers
+
+paths:
+  /event/stats:
+    
+          
+    get:
+      summary: gets event stats for Ionian and Piltover Champions
+      operationId: app.get_champion_stats
+      description: Gets champion stats
+      produces:
+      - application/json
+        
+      responses:
+        200:
+          description: current stats
+          schema:
+            $ref: '#/definitions/ChampionStats'
+        404:
+          description: stats do not exist
+
+  
+definitions:
+
+  ChampionStats:
+    type: object
+    required: 
+    - num_ionian_champions
+    - num_piltover_champions
+    - updated_timestamp
+    properties:
+      num_ionian_champions:
+        type: integer
+        example: 120
+        
+      num_piltover_readings:
+        type: integer
+        example: 57
+        
+      updated_timestamp:
+        type: string
+        format: date-time
+        example: 2020-01-23T09:12:33.001Z
+    
+      
+
+#host: virtserver.swaggerhub.com
+#basePath: /ACIT-3855/Lab3/1.0.0
+#schemes:
+# - https

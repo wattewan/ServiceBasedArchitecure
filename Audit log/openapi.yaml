@@ -1,0 +1,143 @@
+swagger: '2.0'
+info:
+  description: This is a league API
+  version: 1.0.0
+  title: League Champions API
+  # put the contact info for your development or API team
+  contact:
+    email: you@your-company.com
+
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+
+# tags are used for organizing operations
+tags:
+- name: admins
+  description: Secured Admin-only calls
+- name: developers
+  description: Operations available to regular developers
+
+paths:
+  /ionia/history:
+    get:
+      tags:
+      - admins
+      summary: Finds a certain even based on an offset
+      operationId: app.event1_offset
+      description: Stores a Ionian Champions Info
+      produces:
+      - application/json
+      parameters:
+      - in: query
+        name: Offset
+        description: pass an offset to find a certain event
+        required: false
+        type: integer
+      
+      responses:
+        200:
+          description: search results matching criteria
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/IonianChampionInfo'
+        400:
+          description: bad input parameter
+        
+
+
+  /piltover/history:
+    get:
+      tags:
+      - admins
+      summary: Finds an event based on an offset
+      operationId: app.event2_oldest
+      description: Finds an event
+      produces:
+      - application/json
+             
+      responses:
+        200:
+          description: search results matching criteria
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/PiltoverChampionInfo'
+        400:
+          description: bad input parameter
+    
+  /all/history:
+    get:
+      tags:
+      - admins
+      summary: Finds an event based on an offset
+      operationId: app.all_history
+      description: Finds an event
+      produces:
+      - application/json
+             
+      responses:
+        200:
+          description: search results matching criteria
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/PiltoverChampionInfo'
+        400:
+          description: bad input parameter
+
+
+
+          
+
+definitions:
+  IonianChampionInfo:
+    type: object
+    required:
+    - champ_id
+    - champ_name
+    - weapon
+    - role
+
+    properties:
+      champ_id:
+        type: string
+        example: ionia-001
+      champ_name:
+        type: string
+        example: Irelia
+      weapon:
+        type: string
+        example: blades
+      role:
+        type: string
+        example: Brawler
+
+  PiltoverChampionInfo:
+    type: object
+    required:
+    - champ_id
+    - champ_name
+    - technology_used
+    - city
+    properties:
+      champ_id:
+        type: string
+        example: piltover-001
+      champ_name:
+        type: string
+        example: ezreal
+      technology_used:
+        type: string
+        example: gauntlet
+      city:
+        type: string
+        example: piltover
+
+
+# # Added by API Auto Mocking Plugin
+# host: virtserver.swaggerhub.com
+# basePath: /ACIT-3855/ACIT-3855/1.0.0
+# schemes:
+#  - https

@@ -1,0 +1,130 @@
+swagger: '2.0'
+info:
+  description: This is a league API
+  version: 1.0.0
+  title: League Champions API
+  # put the contact info for your development or API team
+  contact:
+    email: you@your-company.com
+
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+
+# tags are used for organizing operations
+tags:
+- name: admins
+  description: Secured Admin-only calls
+- name: developers
+  description: Operations available to regular developers
+
+paths:
+  /ionia/champions:
+    post:
+      tags:
+      - admins
+      summary: Adds an Ionian champion Info
+      operationId: app.add_ionian_champion
+      description: Stores a Ionian Champions Info
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      parameters:
+      - in: body
+        name: info
+        description: Ionian Champion Info
+        schema:
+          $ref: '#/definitions/IonianChampionInfo'
+      responses:
+        201:
+          description: item added
+        400:
+          description: invalid input, object invalid
+        409:
+          description: an existing item already exists
+
+
+
+  /piltover/champions:
+    post:
+      tags:
+      - admins
+      summary: Adds a piltover champions info
+      operationId: app.add_piltover_champion
+      description: Stores a piltover champion
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      parameters:
+      - in: body
+        name: info
+        description: Piltover Champion Info
+        schema:
+          $ref: '#/definitions/PiltoverChampionInfo'
+      responses:
+        201:
+          description: item added
+        400:
+          description: invalid input, object invalid
+        409:
+          description: an existing item already exists
+
+
+
+          
+
+definitions:
+  IonianChampionInfo:
+    type: object
+    required:
+    - champ_id
+    - champ_name
+    - weapon
+    - role
+
+    properties:
+      champ_id:
+        type: string
+        example: ionia-001
+      champ_name:
+        type: string
+        example: Irelia
+      weapon:
+        type: string
+        example: blades
+      role:
+        type: string
+        example: Brawler
+
+  PiltoverChampionInfo:
+    type: object
+    required:
+    - champ_id
+    - champ_name
+    - technology_used
+    - city
+    properties:
+      champ_id:
+        type: string
+        example: piltover-001
+      champ_name:
+        type: string
+        example: ezreal
+      technology_used:
+        type: string
+        example: gauntlet
+      city:
+        type: string
+        example: piltover
+
+
+
+# Added by API Auto Mocking Plugin
+#host: virtserver.swaggerhub.com
+# basePath: /ACIT-3855/ACIT3855/1.0.0
+#schemes:
+# - https
+# Added by API Auto Mocking Plugin
+#basePath: /ACIT-3855/Lab1/1.0.0
