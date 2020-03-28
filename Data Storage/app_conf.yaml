@@ -1,11 +1,11 @@
 version: 1
 datastore:
   user: root
-  password: P@ssw0rd
-  hostname: localhost
+  password: root
+  hostname: cloudserver-acit3855.westus.cloudapp.azure.com
   port: 3306
   db: events
 kafka:
-  kafka-server: localhost
+  kafka-server: cloudserver-acit3855.westus.cloudapp.azure.com
   kafka-port: 9092
   topic: events
