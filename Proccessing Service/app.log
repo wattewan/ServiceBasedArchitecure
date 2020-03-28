@@ -45828,3 +45828,205 @@
 2020-03-25 16:17:38,734 - basicLogger - INFO - Num Piltover Champions: 0
 2020-03-25 16:17:38,735 - basicLogger - DEBUG - [{'num_champion_ionia': 2773}, {'num_champion_piltover': 2714}, {'timestamp': '2020-03-19T09:53:20'}]
 2020-03-25 16:17:38,736 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:34:54,320 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:34:55,663 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:34:56,846 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:34:56,848 - basicLogger - DEBUG - [{'num_champion_ionia': 2777}, {'num_champion_piltover': 2718}, {'timestamp': '2020-03-28T16:34:56'}]
+2020-03-28 16:34:56,848 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:34:59,320 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:35:00,526 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:35:01,708 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:35:01,710 - basicLogger - DEBUG - [{'num_champion_ionia': 2781}, {'num_champion_piltover': 2722}, {'timestamp': '2020-03-28T16:35:01'}]
+2020-03-28 16:35:01,710 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:35:04,320 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:35:05,572 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:35:07,090 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:35:07,094 - basicLogger - DEBUG - [{'num_champion_ionia': 2785}, {'num_champion_piltover': 2726}, {'timestamp': '2020-03-28T16:35:07'}]
+2020-03-28 16:35:07,094 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:35:08,835 - basicLogger - INFO - Get request started
+2020-03-28 16:35:08,840 - basicLogger - DEBUG - Current info: {'num_champion_ionia': 2785, 'num_champion_piltover': 2726, 'timestamp': '2020-03-28T16:35:07'}
+2020-03-28 16:35:08,840 - basicLogger - INFO - Get request completed
+2020-03-28 16:35:09,322 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:35:10,902 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:35:12,081 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:35:12,082 - basicLogger - DEBUG - [{'num_champion_ionia': 2789}, {'num_champion_piltover': 2730}, {'timestamp': '2020-03-28T16:35:12'}]
+2020-03-28 16:35:12,082 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:35:14,322 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:35:15,679 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:35:17,310 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:35:17,312 - basicLogger - DEBUG - [{'num_champion_ionia': 2793}, {'num_champion_piltover': 2734}, {'timestamp': '2020-03-28T16:35:17'}]
+2020-03-28 16:35:17,312 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:35:19,321 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:35:20,768 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:35:21,943 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:35:21,944 - basicLogger - DEBUG - [{'num_champion_ionia': 2797}, {'num_champion_piltover': 2738}, {'timestamp': '2020-03-28T16:35:21'}]
+2020-03-28 16:35:21,945 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:35:24,322 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:35:25,692 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:35:26,869 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:35:26,871 - basicLogger - DEBUG - [{'num_champion_ionia': 2801}, {'num_champion_piltover': 2742}, {'timestamp': '2020-03-28T16:35:26'}]
+2020-03-28 16:35:26,871 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:35:29,324 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:35:30,518 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:35:31,705 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:35:31,706 - basicLogger - DEBUG - [{'num_champion_ionia': 2805}, {'num_champion_piltover': 2746}, {'timestamp': '2020-03-28T16:35:31'}]
+2020-03-28 16:35:31,707 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:35:34,322 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:35:35,673 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:35:36,845 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:35:36,846 - basicLogger - DEBUG - [{'num_champion_ionia': 2809}, {'num_champion_piltover': 2750}, {'timestamp': '2020-03-28T16:35:36'}]
+2020-03-28 16:35:36,846 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:35:39,321 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:35:40,507 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:35:41,690 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:35:41,693 - basicLogger - DEBUG - [{'num_champion_ionia': 2813}, {'num_champion_piltover': 2754}, {'timestamp': '2020-03-28T16:35:41'}]
+2020-03-28 16:35:41,693 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:35:44,320 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:35:45,567 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:35:46,907 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:35:46,909 - basicLogger - DEBUG - [{'num_champion_ionia': 2817}, {'num_champion_piltover': 2758}, {'timestamp': '2020-03-28T16:35:46'}]
+2020-03-28 16:35:46,909 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:35:49,320 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:35:50,508 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:35:51,711 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:35:51,712 - basicLogger - DEBUG - [{'num_champion_ionia': 2821}, {'num_champion_piltover': 2762}, {'timestamp': '2020-03-28T16:35:51'}]
+2020-03-28 16:35:51,712 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:35:54,321 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:35:55,036 - basicLogger - INFO - Get request started
+2020-03-28 16:35:55,037 - basicLogger - DEBUG - Current info: {'num_champion_ionia': 2821, 'num_champion_piltover': 2762, 'timestamp': '2020-03-28T16:35:51'}
+2020-03-28 16:35:55,037 - basicLogger - INFO - Get request completed
+2020-03-28 16:35:55,567 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:35:56,752 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:35:56,753 - basicLogger - DEBUG - [{'num_champion_ionia': 2825}, {'num_champion_piltover': 2766}, {'timestamp': '2020-03-28T16:35:56'}]
+2020-03-28 16:35:56,753 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:35:59,320 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:36:00,719 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:36:01,891 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:36:01,892 - basicLogger - DEBUG - [{'num_champion_ionia': 2829}, {'num_champion_piltover': 2770}, {'timestamp': '2020-03-28T16:36:01'}]
+2020-03-28 16:36:01,892 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:36:04,322 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:36:05,646 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:36:06,822 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:36:06,824 - basicLogger - DEBUG - [{'num_champion_ionia': 2833}, {'num_champion_piltover': 2774}, {'timestamp': '2020-03-28T16:36:06'}]
+2020-03-28 16:36:06,824 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:36:09,324 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:36:10,867 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:36:12,042 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:36:12,043 - basicLogger - DEBUG - [{'num_champion_ionia': 2837}, {'num_champion_piltover': 2778}, {'timestamp': '2020-03-28T16:36:12'}]
+2020-03-28 16:36:12,044 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:36:14,321 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:36:15,669 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:36:16,849 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:36:16,851 - basicLogger - DEBUG - [{'num_champion_ionia': 2841}, {'num_champion_piltover': 2782}, {'timestamp': '2020-03-28T16:36:16'}]
+2020-03-28 16:36:16,851 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:36:19,319 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:36:20,935 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:36:22,532 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:36:22,534 - basicLogger - DEBUG - [{'num_champion_ionia': 2845}, {'num_champion_piltover': 2786}, {'timestamp': '2020-03-28T16:36:22'}]
+2020-03-28 16:36:22,535 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:36:24,321 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:36:25,587 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:36:27,014 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:36:27,015 - basicLogger - DEBUG - [{'num_champion_ionia': 2849}, {'num_champion_piltover': 2790}, {'timestamp': '2020-03-28T16:36:27'}]
+2020-03-28 16:36:27,016 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:36:29,322 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:36:30,511 - basicLogger - INFO - Num Ionian Champions: 4
+2020-03-28 16:36:31,683 - basicLogger - INFO - Num Piltover Champions: 4
+2020-03-28 16:36:31,684 - basicLogger - DEBUG - [{'num_champion_ionia': 2853}, {'num_champion_piltover': 2794}, {'timestamp': '2020-03-28T16:36:31'}]
+2020-03-28 16:36:31,685 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:36:34,322 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:36:36,336 - basicLogger - ERROR - Error occured: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /ionia/champions?startDate=2020-03-28T16%3A36%3A31&endDate=2020-03-28T16%3A36%3A34 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029A07F8FA60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2020-03-28 16:36:38,344 - basicLogger - ERROR - Error occured: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /piltover/champions?startDate=2020-03-28T16%3A36%3A31&endDate=2020-03-28T16%3A36%3A34 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029A0802D520>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2020-03-28 16:36:39,320 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:36:41,328 - basicLogger - ERROR - Error occured: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /ionia/champions?startDate=2020-03-28T16%3A36%3A31&endDate=2020-03-28T16%3A36%3A39 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029A080344F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2020-03-28 16:36:43,341 - basicLogger - ERROR - Error occured: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /piltover/champions?startDate=2020-03-28T16%3A36%3A31&endDate=2020-03-28T16%3A36%3A39 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029A07F78B20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2020-03-28 16:36:44,320 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:36:46,327 - basicLogger - ERROR - Error occured: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /ionia/champions?startDate=2020-03-28T16%3A36%3A31&endDate=2020-03-28T16%3A36%3A44 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029A07FE5AF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2020-03-28 16:36:48,334 - basicLogger - ERROR - Error occured: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /piltover/champions?startDate=2020-03-28T16%3A36%3A31&endDate=2020-03-28T16%3A36%3A44 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029A08003580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2020-03-28 16:36:49,321 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:36:51,328 - basicLogger - ERROR - Error occured: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /ionia/champions?startDate=2020-03-28T16%3A36%3A31&endDate=2020-03-28T16%3A36%3A49 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029A0802DDF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2020-03-28 16:36:53,335 - basicLogger - ERROR - Error occured: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /piltover/champions?startDate=2020-03-28T16%3A36%3A31&endDate=2020-03-28T16%3A36%3A49 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029A0802DD90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2020-03-28 16:36:54,321 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:36:56,327 - basicLogger - ERROR - Error occured: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /ionia/champions?startDate=2020-03-28T16%3A36%3A31&endDate=2020-03-28T16%3A36%3A54 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029A0800C3A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2020-03-28 16:36:58,334 - basicLogger - ERROR - Error occured: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /piltover/champions?startDate=2020-03-28T16%3A36%3A31&endDate=2020-03-28T16%3A36%3A54 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029A08003D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2020-03-28 16:36:59,320 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:37:01,327 - basicLogger - ERROR - Error occured: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /ionia/champions?startDate=2020-03-28T16%3A36%3A31&endDate=2020-03-28T16%3A36%3A59 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029A07F06550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2020-03-28 16:37:03,333 - basicLogger - ERROR - Error occured: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /piltover/champions?startDate=2020-03-28T16%3A36%3A31&endDate=2020-03-28T16%3A36%3A59 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029A07F78A60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2020-03-28 16:37:04,320 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:37:06,327 - basicLogger - ERROR - Error occured: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /ionia/champions?startDate=2020-03-28T16%3A36%3A31&endDate=2020-03-28T16%3A37%3A04 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029A07FE5880>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2020-03-28 16:37:08,947 - basicLogger - INFO - Num Piltover Champions: 0
+2020-03-28 16:37:09,320 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:37:10,442 - basicLogger - INFO - Num Ionian Champions: 0
+2020-03-28 16:37:11,554 - basicLogger - INFO - Num Piltover Champions: 0
+2020-03-28 16:37:11,555 - basicLogger - DEBUG - [{'num_champion_ionia': 2853}, {'num_champion_piltover': 2794}, {'timestamp': '2020-03-28T16:36:31'}]
+2020-03-28 16:37:11,555 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:37:14,320 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:37:15,442 - basicLogger - INFO - Num Ionian Champions: 0
+2020-03-28 16:37:16,954 - basicLogger - INFO - Num Piltover Champions: 0
+2020-03-28 16:37:16,958 - basicLogger - DEBUG - [{'num_champion_ionia': 2853}, {'num_champion_piltover': 2794}, {'timestamp': '2020-03-28T16:36:31'}]
+2020-03-28 16:37:16,959 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:37:19,321 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:37:20,443 - basicLogger - INFO - Num Ionian Champions: 0
+2020-03-28 16:37:21,560 - basicLogger - INFO - Num Piltover Champions: 0
+2020-03-28 16:37:21,565 - basicLogger - DEBUG - [{'num_champion_ionia': 2853}, {'num_champion_piltover': 2794}, {'timestamp': '2020-03-28T16:36:31'}]
+2020-03-28 16:37:21,565 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:37:24,333 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:37:25,454 - basicLogger - INFO - Num Ionian Champions: 0
+2020-03-28 16:37:26,585 - basicLogger - INFO - Num Piltover Champions: 0
+2020-03-28 16:37:26,589 - basicLogger - DEBUG - [{'num_champion_ionia': 2853}, {'num_champion_piltover': 2794}, {'timestamp': '2020-03-28T16:36:31'}]
+2020-03-28 16:37:26,591 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:37:29,326 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:37:30,499 - basicLogger - INFO - Num Ionian Champions: 0
+2020-03-28 16:37:31,621 - basicLogger - INFO - Num Piltover Champions: 1
+2020-03-28 16:37:31,623 - basicLogger - DEBUG - [{'num_champion_ionia': 2853}, {'num_champion_piltover': 2795}, {'timestamp': '2020-03-28T16:37:31'}]
+2020-03-28 16:37:31,624 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:37:34,330 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:37:35,473 - basicLogger - INFO - Num Ionian Champions: 0
+2020-03-28 16:37:36,710 - basicLogger - INFO - Num Piltover Champions: 0
+2020-03-28 16:37:36,711 - basicLogger - DEBUG - [{'num_champion_ionia': 2853}, {'num_champion_piltover': 2795}, {'timestamp': '2020-03-28T16:37:31'}]
+2020-03-28 16:37:36,711 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:37:39,326 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:37:40,643 - basicLogger - INFO - Num Ionian Champions: 0
+2020-03-28 16:37:41,772 - basicLogger - INFO - Num Piltover Champions: 0
+2020-03-28 16:37:41,773 - basicLogger - DEBUG - [{'num_champion_ionia': 2853}, {'num_champion_piltover': 2795}, {'timestamp': '2020-03-28T16:37:31'}]
+2020-03-28 16:37:41,774 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:37:44,328 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:37:45,445 - basicLogger - INFO - Num Ionian Champions: 0
+2020-03-28 16:37:46,854 - basicLogger - INFO - Num Piltover Champions: 0
+2020-03-28 16:37:46,855 - basicLogger - DEBUG - [{'num_champion_ionia': 2853}, {'num_champion_piltover': 2795}, {'timestamp': '2020-03-28T16:37:31'}]
+2020-03-28 16:37:46,856 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:37:49,327 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:37:50,452 - basicLogger - INFO - Num Ionian Champions: 0
+2020-03-28 16:37:51,566 - basicLogger - INFO - Num Piltover Champions: 0
+2020-03-28 16:37:51,567 - basicLogger - DEBUG - [{'num_champion_ionia': 2853}, {'num_champion_piltover': 2795}, {'timestamp': '2020-03-28T16:37:31'}]
+2020-03-28 16:37:51,567 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:37:54,334 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:37:55,476 - basicLogger - INFO - Num Ionian Champions: 0
+2020-03-28 16:37:56,596 - basicLogger - INFO - Num Piltover Champions: 1
+2020-03-28 16:37:56,600 - basicLogger - DEBUG - [{'num_champion_ionia': 0}, {'num_champion_piltover': 1}, {'timestamp': '2020-03-28T16:37:56'}]
+2020-03-28 16:37:56,601 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:37:59,325 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:38:00,448 - basicLogger - INFO - Num Ionian Champions: 0
+2020-03-28 16:38:01,572 - basicLogger - INFO - Num Piltover Champions: 0
+2020-03-28 16:38:01,577 - basicLogger - DEBUG - [{'num_champion_ionia': 0}, {'num_champion_piltover': 1}, {'timestamp': '2020-03-28T16:37:56'}]
+2020-03-28 16:38:01,579 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:38:04,330 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:38:05,472 - basicLogger - INFO - Num Ionian Champions: 0
+2020-03-28 16:38:06,671 - basicLogger - INFO - Num Piltover Champions: 0
+2020-03-28 16:38:06,674 - basicLogger - DEBUG - [{'num_champion_ionia': 0}, {'num_champion_piltover': 1}, {'timestamp': '2020-03-28T16:37:56'}]
+2020-03-28 16:38:06,675 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:38:09,328 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:38:10,551 - basicLogger - INFO - Num Ionian Champions: 0
+2020-03-28 16:38:11,667 - basicLogger - INFO - Num Piltover Champions: 0
+2020-03-28 16:38:11,669 - basicLogger - DEBUG - [{'num_champion_ionia': 0}, {'num_champion_piltover': 1}, {'timestamp': '2020-03-28T16:37:56'}]
+2020-03-28 16:38:11,670 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:38:14,332 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:38:15,615 - basicLogger - INFO - Num Ionian Champions: 0
+2020-03-28 16:38:16,730 - basicLogger - INFO - Num Piltover Champions: 0
+2020-03-28 16:38:16,731 - basicLogger - DEBUG - [{'num_champion_ionia': 0}, {'num_champion_piltover': 1}, {'timestamp': '2020-03-28T16:37:56'}]
+2020-03-28 16:38:16,732 - basicLogger - INFO - End Periodic Processing
+2020-03-28 16:38:19,327 - basicLogger - INFO - Start Periodic Processing
+2020-03-28 16:38:20,450 - basicLogger - INFO - Num Ionian Champions: 0
+2020-03-28 16:38:21,582 - basicLogger - INFO - Num Piltover Champions: 0
+2020-03-28 16:38:21,582 - basicLogger - DEBUG - [{'num_champion_ionia': 0}, {'num_champion_piltover': 1}, {'timestamp': '2020-03-28T16:37:56'}]
+2020-03-28 16:38:21,583 - basicLogger - INFO - End Periodic Processing
