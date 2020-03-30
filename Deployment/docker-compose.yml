@@ -61,13 +61,13 @@ services:
     volumes:
       - ./configs/data_storage:/config
   processor:
-    image: proccessing_server
+    image: proccessing_service
     ports:
       - '8100:8100'
     depends_on:
       - 'db'
     volumes:
-      - ./configs/proccessing_server:/config
+      - ./configs/proccessing_service:/config
   audit-log:
     image: audit_log
     ports:
