@@ -12,7 +12,12 @@ from pykafka import KafkaClient
 from flask_cors import CORS, cross_origin
 
 
-
+try:
+    with open('/config/app_conf.yml', 'r') as f:
+        app_config = yaml.safe_load(f.read())
+except IOError:
+    with open('app_conf.yml', 'r') as f:
+        app_config = yaml.safe_load(f.read())
 
    
 with open('log_conf.yaml', 'r') as f:
@@ -39,30 +44,24 @@ def add_ionian_champion(info):
     # )
 
 
-    with open('app_conf.yaml', 'r') as app_config:
-        app_config = yaml.safe_load(app_config.read())
+    kafka_server = app_config['kafka']['kafka-server']
+    kafka_port = app_config['kafka']['kafka-port']
+    topic = app_config['kafka']['topic']
 
-        
-
-
-        kafka_server = app_config['kafka']['kafka-server']
-        kafka_port = app_config['kafka']['kafka-port']
-        topic = app_config['kafka']['topic']
 
     
-        
-        client = KafkaClient(hosts='{}:{}'.format(kafka_server, kafka_port))
-        topic = client.topics['{}'.format(topic)]
-        producer = topic.get_sync_producer()
-        msg = { "type": "ionian_champion",
-                "datetime": 
-                    datetime.datetime.now().strftime(
-                        "%Y-%m-%dT%H:%M:%S"),
-                    "payload": info }
-        print(msg)
-        msg_str = json.dumps(msg)
-        producer.produce(msg_str.encode('utf-8'))
-        logger.info('Ionian Champion Info: ' + msg_str)
+    client = KafkaClient(hosts='{}:{}'.format(kafka_server, kafka_port))
+    topic = client.topics['{}'.format(topic)]
+    producer = topic.get_sync_producer()
+    msg = { "type": "ionian_champion",
+            "datetime": 
+                datetime.datetime.now().strftime(
+                    "%Y-%m-%dT%H:%M:%S"),
+                "payload": info }
+    print(msg)
+    msg_str = json.dumps(msg)
+    producer.produce(msg_str.encode('utf-8'))
+    logger.info('Ionian Champion Info: ' + msg_str)
 
     return NoContent, 200
 
@@ -79,25 +78,23 @@ def add_piltover_champion(info):
     # headers={'Content-Type': 'application/json'}
     # )
 
-    with open('app_conf.yaml', 'r') as app_config:
-        app_config = yaml.safe_load(app_config.read())
 
 
-        kafka_server = app_config['kafka']['kafka-server']
-        kafka_port = app_config['kafka']['kafka-port']
-        topic = app_config['kafka']['topic']
-    
-        client = KafkaClient(hosts='{}:{}'.format(kafka_server, kafka_port))
-        topic = client.topics['{}'.format(topic)]
-        producer = topic.get_sync_producer()
-        msg = { "type": "piltover_champion",
-                "datetime": 
-                    datetime.datetime.now().strftime(
-                        "%Y-%m-%dT%H:%M:%S"),
-                    "payload": info }
-        msg_str = json.dumps(msg)
-        producer.produce(msg_str.encode('utf-8'))
-        logger.info('Piltover Champion Info: ' + msg_str)
+    kafka_server = app_config['kafka']['kafka-server']
+    kafka_port = app_config['kafka']['kafka-port']
+    topic = app_config['kafka']['topic']
+
+    client = KafkaClient(hosts='{}:{}'.format(kafka_server, kafka_port))
+    topic = client.topics['{}'.format(topic)]
+    producer = topic.get_sync_producer()
+    msg = { "type": "piltover_champion",
+            "datetime": 
+                datetime.datetime.now().strftime(
+                    "%Y-%m-%dT%H:%M:%S"),
+                "payload": info }
+    msg_str = json.dumps(msg)
+    producer.produce(msg_str.encode('utf-8'))
+    logger.info('Piltover Champion Info: ' + msg_str)
 
     return NoContent, 200
 

@@ -29,20 +29,27 @@ logger = logging.getLogger('basicLogger')
 
 
 
-with open('app_conf.yaml', 'r') as f:
+try:
+    with open('/config/app_conf.yml', 'r') as f:
+        app_config = yaml.safe_load(f.read())
+except IOError:
+    with open('app_conf.yml', 'r') as f:
         app_config = yaml.safe_load(f.read())
 
 
-        user = app_config['datastore']['user']
-        password = app_config['datastore']['password']
-        hostname = app_config['datastore']['hostname']
-        port = app_config['datastore']['port']
-        db = app_config['datastore']['db']
-
-        login = 'mysql+pymysql://{}:{}@{}:{}/{}'.format(user, password, hostname, port, db)
 
 
-        DB_ENGINE = create_engine(login)
+
+user = app_config['datastore']['user']
+password = app_config['datastore']['password']
+hostname = app_config['datastore']['hostname']
+port = app_config['datastore']['port']
+db = app_config['datastore']['db']
+
+login = 'mysql+pymysql://{}:{}@{}:{}/{}'.format(user, password, hostname, port, db)
+
+
+DB_ENGINE = create_engine(login)
 
 
 

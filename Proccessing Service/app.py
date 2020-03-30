@@ -18,6 +18,15 @@ import os.path
 from flask_cors import CORS,cross_origin
 
 
+
+try:
+    with open('/config/app_conf.yml', 'r') as f:
+        app_config = yaml.safe_load(f.read())
+except IOError:
+    with open('app_conf.yml', 'r') as f:
+        app_config = yaml.safe_load(f.read())
+
+
 with open('log_conf.yaml', 'r') as f:
         log_config = yaml.safe_load(f.read())
         logging.config.dictConfig(log_config)
@@ -25,11 +34,9 @@ with open('log_conf.yaml', 'r') as f:
 
 logger = logging.getLogger('basicLogger')
 
-with open('app_conf.yaml', 'r') as f:
-        app_config = yaml.safe_load(f.read())
+
 
 datastore = app_config['datastore']['filename']
-
 
 
 def get_champion_stats():
@@ -51,11 +58,6 @@ def get_champion_stats():
         logger.error("Error no data exists")
         return 404
         
-
-
-    
-
-    
 
 
 def populate_stats():
