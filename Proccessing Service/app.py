@@ -20,10 +20,10 @@ from flask_cors import CORS,cross_origin
 
 
 try:
-    with open('/config/app_conf.yml', 'r') as f:
+    with open('/config/app_conf.yaml', 'r') as f:
         app_config = yaml.safe_load(f.read())
 except IOError:
-    with open('app_conf.yml', 'r') as f:
+    with open('app_conf.yaml', 'r') as f:
         app_config = yaml.safe_load(f.read())
 
 
