@@ -6,6 +6,6 @@ datastore:
   port: 3306
   db: events
 kafka:
-  kafka-server: cloudserver-acit3855.westus.cloudapp.azure.com
+  kafka-server: kafka
   kafka-port: 9092
 topic: events
