@@ -8,4 +8,4 @@ datastore:
 kafka:
   kafka-server: cloudserver-acit3855.westus.cloudapp.azure.com
   kafka-port: 9092
- topic: events
+topic: events
