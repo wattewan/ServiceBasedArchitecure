@@ -71,7 +71,7 @@ def event2_oldest():
 def all_history():
 
 
-    
+    message_list = []
 
 
     kafka_server = app_config['kafka']['kafka-server']
@@ -87,6 +87,7 @@ def all_history():
         message_string = message.value.decode('utf-8')
         message_value = json.loads(message_string)
         print("Offeset: " + str(message.offset) + " Type: " + message_value['type'] + " Message: " + str(message_value['payload']))
+        message_list.append("Offeset: " + str(message.offset) + " Type: " + message_value['type'] + " Message: " + str(message_value['payload']))
 
     
         
