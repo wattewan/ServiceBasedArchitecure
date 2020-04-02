@@ -46030,3 +46030,13 @@
 2020-03-28 16:38:21,582 - basicLogger - INFO - Num Piltover Champions: 0
 2020-03-28 16:38:21,582 - basicLogger - DEBUG - [{'num_champion_ionia': 0}, {'num_champion_piltover': 1}, {'timestamp': '2020-03-28T16:37:56'}]
 2020-03-28 16:38:21,583 - basicLogger - INFO - End Periodic Processing
+2020-04-02 15:58:45,051 - basicLogger - INFO - Start Periodic Processing
+2020-04-02 15:58:45,255 - basicLogger - INFO - Num Ionian Champions: 4
+2020-04-02 15:58:45,369 - basicLogger - INFO - Num Piltover Champions: 4
+2020-04-02 15:58:45,370 - basicLogger - DEBUG - [{'num_champion_ionia': 4}, {'num_champion_piltover': 5}, {'timestamp': '2020-04-02T15:58:45'}]
+2020-04-02 15:58:45,371 - basicLogger - INFO - End Periodic Processing
+2020-04-02 15:58:50,054 - basicLogger - INFO - Start Periodic Processing
+2020-04-02 15:58:50,180 - basicLogger - INFO - Num Ionian Champions: 4
+2020-04-02 15:58:50,294 - basicLogger - INFO - Num Piltover Champions: 4
+2020-04-02 15:58:50,296 - basicLogger - DEBUG - [{'num_champion_ionia': 8}, {'num_champion_piltover': 9}, {'timestamp': '2020-04-02T15:58:50'}]
+2020-04-02 15:58:50,297 - basicLogger - INFO - End Periodic Processing

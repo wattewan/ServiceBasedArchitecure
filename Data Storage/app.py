@@ -155,7 +155,7 @@ def process_messages():
 
         kafka_server = app_config['kafka']['kafka-server']
         kafka_port = app_config['kafka']['kafka-port']
-        kafka_topic = app_config['kafka']['topic']
+        kafka_topic = app_config['topic']
 
         client = KafkaClient(hosts='{}:{}'.format(kafka_server, kafka_port))
         topic = client.topics['{}'.format(kafka_topic)]

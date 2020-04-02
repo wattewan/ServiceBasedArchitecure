@@ -46,7 +46,7 @@ def add_ionian_champion(info):
 
     kafka_server = app_config['kafka']['kafka-server']
     kafka_port = app_config['kafka']['kafka-port']
-    topic = app_config['kafka']['topic']
+    topic = app_config['topic']
 
 
     
@@ -82,7 +82,7 @@ def add_piltover_champion(info):
 
     kafka_server = app_config['kafka']['kafka-server']
     kafka_port = app_config['kafka']['kafka-port']
-    topic = app_config['kafka']['topic']
+    topic = app_config['topic']
 
     client = KafkaClient(hosts='{}:{}'.format(kafka_server, kafka_port))
     topic = client.topics['{}'.format(topic)]
