@@ -88,8 +88,8 @@ def get_ionian_champion(startDate, endDate):
     print(startDate)
     print(endDate)
 
-    results = session.query(IonianChampion).filter(IonianChampion.date_created >= datetime.fromisoformat(startDate), IonianChampion.date_created <= datetime.fromisoformat(endDate))
-    
+    #results = session.query(IonianChampion).filter(IonianChampion.date_created >= datetime.fromisoformat(startDate), IonianChampion.date_created <= datetime.fromisoformat(endDate))
+    results = session.query(IonianChampion).filter(IonianChampion.date_created.between(startDate, endDate))
     
 
     for result in results:
