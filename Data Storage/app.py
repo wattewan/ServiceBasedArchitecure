@@ -132,8 +132,8 @@ def get_piltover_champion(startDate, endDate):
 
     session = DB_SESSION()
 
-    results = session.query(PiltoverChampion).filter(PiltoverChampion.date_created >= datetime.fromisoformat(startDate), PiltoverChampion.date_created <= datetime.fromisoformat(endDate))
-
+    #results = session.query(PiltoverChampion).filter(PiltoverChampion.date_created >= datetime.fromisoformat(startDate), PiltoverChampion.date_created <= datetime.fromisoformat(endDate))
+    results = session.query(PiltoverChampion).filter(PiltoverChampion.date_created.between(startDate, endDate))
 
     for result in results:
         results_list.append(result.to_dict())
